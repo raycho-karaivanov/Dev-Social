@@ -12,6 +12,7 @@
 		5B322BAA1E4C7D4100728515 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BA91E4C7D4100728515 /* PostCell.swift */; };
 		5B322BAC1E4C7FAB00728515 /* RoundedCornersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BAB1E4C7FAB00728515 /* RoundedCornersImage.swift */; };
 		5B322BAF1E4CB14800728515 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BAE1E4CB14800728515 /* DataService.swift */; };
+		5B322BB11E4CC80100728515 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BB01E4CC80100728515 /* Post.swift */; };
 		5BA8186C1E3F768D00556667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8186B1E3F768D00556667 /* AppDelegate.swift */; };
 		5BA8186E1E3F768D00556667 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8186D1E3F768D00556667 /* SignInVC.swift */; };
 		5BA818711E3F768D00556667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8186F1E3F768D00556667 /* Main.storyboard */; };
@@ -33,6 +34,7 @@
 		5B322BA91E4C7D4100728515 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		5B322BAB1E4C7FAB00728515 /* RoundedCornersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersImage.swift; sourceTree = "<group>"; };
 		5B322BAE1E4CB14800728515 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		5B322BB01E4CC80100728515 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5BA818681E3F768D00556667 /* Dev-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dev-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA8186B1E3F768D00556667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA8186D1E3F768D00556667 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		5BFAFA3B1E40BB6C005771D6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5B322BB01E4CC80100728515 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				5BFAFA461E40C25A005771D6 /* FancyField.swift in Sources */,
 				5BA8186E1E3F768D00556667 /* SignInVC.swift in Sources */,
 				5B322BAF1E4CB14800728515 /* DataService.swift in Sources */,
+				5B322BB11E4CC80100728515 /* Post.swift in Sources */,
 				5BFAFA441E40C100005771D6 /* RoundBtn.swift in Sources */,
 				5BA8186C1E3F768D00556667 /* AppDelegate.swift in Sources */,
 				5BBEA3E81E4604790073FA9D /* FeedVC.swift in Sources */,
