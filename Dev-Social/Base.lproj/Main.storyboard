@@ -343,6 +343,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.84705882349999995" blue="0.86274509799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <connections>
+                                            <outlet property="caption" destination="Tpn-Fn-Mu4" id="Wa1-fb-Q6K"/>
+                                            <outlet property="likesLbl" destination="FWo-RP-7lY" id="3Vx-Zi-5hK"/>
+                                            <outlet property="postImg" destination="meE-cf-oaS" id="iqg-mT-kHM"/>
+                                            <outlet property="profileImg" destination="Oy6-g9-r1k" id="XSr-LB-eFR"/>
+                                            <outlet property="usernameLbl" destination="JAA-03-RRj" id="apV-9s-3xC"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
