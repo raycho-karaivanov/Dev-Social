@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		21C67DA47687A04B7FB7DAE5 /* Pods_Dev_Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 366CEA5DBEFF549ACA1366E5 /* Pods_Dev_Social.framework */; };
 		5B322BA81E4C738000728515 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BA71E4C738000728515 /* CircleView.swift */; };
+		5B322BAA1E4C7D4100728515 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BA91E4C7D4100728515 /* PostCell.swift */; };
+		5B322BAC1E4C7FAB00728515 /* RoundedCornersImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B322BAB1E4C7FAB00728515 /* RoundedCornersImage.swift */; };
 		5BA8186C1E3F768D00556667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8186B1E3F768D00556667 /* AppDelegate.swift */; };
 		5BA8186E1E3F768D00556667 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8186D1E3F768D00556667 /* SignInVC.swift */; };
 		5BA818711E3F768D00556667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8186F1E3F768D00556667 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		366CEA5DBEFF549ACA1366E5 /* Pods_Dev_Social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dev_Social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C06E086B8CFCEA7A5050E56 /* Pods-Dev-Social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dev-Social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dev-Social/Pods-Dev-Social.debug.xcconfig"; sourceTree = "<group>"; };
 		5B322BA71E4C738000728515 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		5B322BA91E4C7D4100728515 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		5B322BAB1E4C7FAB00728515 /* RoundedCornersImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornersImage.swift; sourceTree = "<group>"; };
 		5BA818681E3F768D00556667 /* Dev-Social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dev-Social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA8186B1E3F768D00556667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA8186D1E3F768D00556667 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
@@ -109,11 +113,13 @@
 		5BFAFA3C1E40BB74005771D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5B322BA91E4C7D4100728515 /* PostCell.swift */,
 				5BFAFA3E1E40BE46005771D6 /* FancyView.swift */,
 				5BFAFA431E40C100005771D6 /* RoundBtn.swift */,
 				5BFAFA451E40C25A005771D6 /* FancyField.swift */,
 				5BFAFA471E40C347005771D6 /* FancyBtn.swift */,
 				5B322BA71E4C738000728515 /* CircleView.swift */,
+				5B322BAB1E4C7FAB00728515 /* RoundedCornersImage.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 				5BFAFA3F1E40BE46005771D6 /* FancyView.swift in Sources */,
 				5BFAFA421E40BEC3005771D6 /* Constants.swift in Sources */,
 				5BFAFA481E40C347005771D6 /* FancyBtn.swift in Sources */,
+				5B322BAC1E4C7FAB00728515 /* RoundedCornersImage.swift in Sources */,
+				5B322BAA1E4C7D4100728515 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
